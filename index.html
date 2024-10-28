@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="grid grid-cols-12 gap-2.5">
+        <section class="h-auto bg-[blue] rounded-t-sm w-auto col-span-2">
+          <div class="bg-[blue] pt-1 rounded-r-sm pb-4 h-12">
+            <div class="flex gap-5 text-white items-center px-4">
+              <i class="bi bi-apple"></i>
+              <p>Brand Name</p>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="flex gap-5 pl-3 w-[40vw]">
+              <div
+                class="flex bg-white rounded-l-full items-center gap-5 px-2 h-10 w-[16vw]"
+              >
+                <i class="bi bi-house-door"></i>
+                <p>DashBoard</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-person-check text-2xl"></i>
+                <p class="pt-2">customers</p>
+              </div>
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-chat text-2xl"></i>
+                <p class="pt-2">Message</p>
+              </div>
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-question-lg text-2xl"></i>
+                <p class="pt-2">Help</p>
+              </div>
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-gear text-2xl"></i>
+                <p class="pt-2">Settings</p>
+              </div>
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-bag text-2xl"></i>
+                <p class="pt-2">Password</p>
+              </div>
+
+              <div class="flex gap-5 px-4 text-white font-bold pt-4">
+                <i class="bi bi-box-arrow-right text-2xl"></i>
+                <p class="pt-2">Sign Out</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="col-span-10 px-5">
+          <div class="">
+            <header class="">
+              <div class="flex px-2 gap-11 py-3 justify-between">
+                <div class="">
+                  <i class="bi bi-list text-3xl"></i>
+                </div>
+                <div
+                  class="border w-[25vw] px-1 py-1 rounded-full flex border-black"
+                >
+                  <i class="bi bi-search px-3"></i>
+                  <p>search</p>
+                </div>
+
+                <img
+                  src="./images/man.jpg"
+                  alt=""
+                  class="w-[3%] rounded-full"
+                />
+              </div>
+            </header>
+
+            <section class="py-5">
+              <div class="flex flex-row justify-between">
+                <div
+                  class="bg-[whitesmoke] px-5 py-2 rounded-xl w-[15vw] h-[13vh]"
+                >
+                  <div class="flex justify-between">
+                    <div class="flex flex-col">
+                      <p class="text-[blue] font-normal text-2xl">1,504</p>
+                      <p class="text-[grey]">Daily News</p>
+                    </div>
+
+                    <i class="bi bi-eye text-3xl text-[grey]"></i>
+                  </div>
+                </div>
+
+                <div class="bg-[blue] px-5 py-2 rounded-xl w-[15vw] h-[13vh]">
+                  <div class="flex justify-between">
+                    <div class="flex flex-col">
+                      <p class="text-[white] font-normal text-2xl">80</p>
+                      <p class="text-[white]">Sales</p>
+                    </div>
+
+                    <i class="bi bi-cart3 text-[white] text-3xl"></i>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-[whitesmoke] px-5 py-2 rounded-xl w-[15vw] h-[13vh]"
+                >
+                  <div class="flex justify-between">
+                    <div class="flex flex-col">
+                      <p class="text-[blue] font-normal text-2xl">284</p>
+                      <p class="text-[grey]">Comments</p>
+                    </div>
+
+                    <i class="bi bi-wechat text-[grey] text-3xl"></i>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-[whitesmoke] px-5 py-2 rounded-xl w-[15vw] h-[13vh]"
+                >
+                  <div class="flex justify-between">
+                    <div class="flex flex-col">
+                      <p class="text-[blue] font-normal text-2xl">$7,842</p>
+                      <p class="text-[grey]">Earnings</p>
+                    </div>
+
+                    <i class="bi bi-cash-stack text-[grey] text-2xl"></i>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="flex gap-5 flex-row">
+              <div class="w-[55vw] bg-[whitesmoke] rounded-3xl">
+                <div class="flex justify-between py-4 px-4">
+                  <h1 class="text-[blue] font-semibold">Recent Orders</h1>
+                  <h1 class="bg-[blue] px-2 text-[white] rounded-md font-serif">
+                    View All
+                  </h1>
+                </div>
+
+                <div class="px-4">
+                  <table class="">
+                    <div class="">
+                      <th class="w-[18vw] flex justify-start">Name</th>
+                      <th class="w-[12vw] pr-4 text-center">price</th>
+                      <th class="w-[5vw] text-center">Payment</th>
+                      <th class="w-[20vw] flex justify-end">status</th>
+                    </div>
+                  </table>
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">star Refrigator</td>
+                      <td class="w-[12vw] text-center pl-1">$1200</td>
+                      <td class="text-center w-[5vw]">paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[7vw] text-center bg-[#5de95d] rounded-md h-6"
+                        >
+                          delivered
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Window Coolers</td>
+                      <td class="w-[12vw] text-center pl-1">$110</td>
+                      <td class="text-center w-[5vw]">Due</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[5vw] text-center bg-[yellow] h-6 rounded-md"
+                        >
+                          pending
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Speakers</td>
+                      <td class="w-[12vw] text-center pl-1">$620</td>
+                      <td class="text-center w-[5vw]">paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p class="w-[5vw] text-center bg-[red] h-6 rounded-md">
+                          Return
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Hp Laptop</td>
+                      <td class="w-[12vw] text-center pl-1">$220</td>
+                      <td class="text-center w-[5vw]">Due</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[8vw] text-center bg-[#00ffc8] h-6 rounded-md"
+                        >
+                          In Progress
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Apple Watch</td>
+                      <td class="w-[12vw] text-center pl-1">$1200</td>
+                      <td class="text-center w-[5vw]">Paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[7vw] text-center bg-[#5de95d] h-6 rounded-md"
+                        >
+                          Delivered
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Wall Fan</td>
+                      <td class="w-[12vw] text-center pl-1">$110</td>
+                      <td class="text-center w-[5vw]">Paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[5vw] text-center bg-[yellow] h-6 rounded-md"
+                        >
+                          pending
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Adidas Shoes</td>
+                      <td class="w-[12vw] text-center pl-1">$620</td>
+                      <td class="text-center w-[5vw]">paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p class="w-[5vw] text-center bg-[red] h-6 rounded-md">
+                          Return
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Denim Shirts</td>
+                      <td class="w-[12vw] text-center pl-1">$220</td>
+                      <td class="text-center w-[5vw]">Due</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[8vw] text-center bg-[#00ffc8] h-6 rounded-md"
+                        >
+                          In Progress
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Casual Shoes</td>
+                      <td class="w-[12vw] text-center pl-1">$575</td>
+                      <td class="text-center w-[5vw]">Paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[5vw] text-center bg-[yellow] h-6 rounded-md"
+                        >
+                          pending
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Wall Fan</td>
+                      <td class="w-[12vw] text-center pl-1">$110</td>
+                      <td class="text-center w-[5vw]">Paid</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[5vw] text-center bg-[yellow] h-6 rounded-md"
+                        >
+                          pending
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <hr />
+
+                  <table class="">
+                    <tr class="h-10">
+                      <td class="w-[18vw]">Denim Shirts</td>
+                      <td class="w-[12vw] text-center pl-1">$220</td>
+                      <td class="text-center w-[5vw]">Due</td>
+                      <td class="flex justify-end pt-2 w-[20vw]">
+                        <p
+                          class="w-[8vw] text-center bg-[#00ffc8] h-6 rounded-md"
+                        >
+                          In Progress
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="bg-[whitesmoke] rounded-3xl w-[25vw] py-3 h-auto">
+                <h1 class="text-[blue] px-3 font-bold">Recent Customers</h1>
+
+                <div class="px-5 flex-col flex">
+                  <div class="pt-5 flex gap-5">
+                    <img
+                      src="./images/man.jpg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">David</p>
+                      <p class="text-[grey]">italy</p>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 flex gap-5">
+                    <img
+                      src="./images/beckham.jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Beckham</p>
+                      <p class="text-[grey]">england</p>
+                    </div>
+                  </div>
+
+                  <div class="flex pt-3 gap-5">
+                    <img
+                      src="./images/download (2).jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Lionel</p>
+                      <p class="text-[grey]">argentina</p>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 flex gap-5">
+                    <img
+                      src="./images/iniesta.jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Iniesta</p>
+                      <p class="text-[grey]">spain</p>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 flex gap-5">
+                    <img
+                      src="./images/images (3).jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Neymar</p>
+                      <p class="text-[grey]">Brazil</p>
+                    </div>
+                  </div>
+
+                  <div class="py-3 flex gap-5">
+                    <img
+                      src="./images/orororo.jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Ronaldo</p>
+                      <p class="text-[grey]">Portugal</p>
+                    </div>
+                  </div>
+
+                  <div class="bg-[blue] py-4 h-[12vh] flex gap-5">
+                    <img
+                      src="./images/yamal.jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div class="text-white">
+                      <p class="font-bold">Yamal</p>
+                      <p class="text-[white]">Spain</p>
+                    </div>
+                  </div>
+
+                  <div class="pt-3 flex gap-5">
+                    <img
+                      src="./images/pedri.jpeg"
+                      alt=""
+                      class="w-[3vw] rounded-full"
+                    />
+                    <div>
+                      <p class="font-bold">Pedri</p>
+                      <p class="text-[grey]">Spain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
